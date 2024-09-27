@@ -26,16 +26,17 @@ public class ProductCataloguePage extends AbstractComponents {
 
 	//WebElement spinner = driver.findElement(By.cssSelector(".ng-trigger-fadeIn"));
 	
-
+	By visibleElement = By.cssSelector("#toast-container");
 
 	@FindBy(css=".card-body")
 	List<WebElement> products;
 	
+	@FindBy(css=".ng-animating")
+	WebElement spinner;
+	
+
 	@FindBy(id="toast-container")
 	WebElement toastMessage;
-	
-	@FindBy(css=".ng-trigger-fadeIn")
-	WebElement spinner;
 
 	public CheckoutPage matchProductandAddToCart(List<String> targetProducts)
 	{
@@ -48,9 +49,11 @@ public class ProductCataloguePage extends AbstractComponents {
 				.orElse(null);
 
 		if (product != null) {
-			product.findElement(By.cssSelector("button:last-of-type")).click();
+			WebElement myProduct = product.findElement(By.cssSelector("button:last-of-type"));
+			myProduct.click();
 
-			WaitForTheWebElementToAppear(toastMessage);
+			waitForTheElementToAppear(visibleElement);
+			
 			WaitForTheWebElementToDisappear(spinner);
 		
 		}

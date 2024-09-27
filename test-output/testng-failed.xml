@@ -4,16 +4,15 @@
   <listeners>
     <listener class-name="MyEcommerce.Ecommerce.testcomponents.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="ErrorValidationTest(failed)">
+  <test thread-count="5" parallel="tests" name="SubmitCartTest(failed)">
     <classes>
-      <class name="MyEcommerce.Ecommerce.tests.ErrorValidationTest">
+      <class name="MyEcommerce.Ecommerce.tests.EcommSubmitTest">
         <methods>
-          <include name="productErrorValidation"/>
+          <include name="ecommSubmit" invocation-numbers="1"/>
           <include name="closeDriver"/>
-          <include name="loginErrorValidation"/>
           <include name="startApplication"/>
         </methods>
-      </class> <!-- MyEcommerce.Ecommerce.tests.ErrorValidationTest -->
+      </class> <!-- MyEcommerce.Ecommerce.tests.EcommSubmitTest -->
     </classes>
-  </test> <!-- ErrorValidationTest(failed) -->
+  </test> <!-- SubmitCartTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

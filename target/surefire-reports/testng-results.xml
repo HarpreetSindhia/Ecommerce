@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-27T16:29:04 IST" name="Suite" finished-at="2024-09-27T16:30:00 IST" duration-ms="56332">
+  <suite started-at="2024-09-27T17:54:19 IST" name="Suite" finished-at="2024-09-27T17:55:10 IST" duration-ms="51373">
     <groups>
       <group name="Error Handling">
         <method signature="ErrorValidationTest.loginErrorValidation()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" name="loginErrorValidation" class="MyEcommerce.Ecommerce.tests.ErrorValidationTest"/>
       </group> <!-- Error Handling -->
     </groups>
-    <test started-at="2024-09-27T16:29:04 IST" name="ErrorValidationTest" finished-at="2024-09-27T16:29:49 IST" duration-ms="44757">
+    <test started-at="2024-09-27T17:54:19 IST" name="ErrorValidationTest" finished-at="2024-09-27T17:54:55 IST" duration-ms="36144">
       <class name="MyEcommerce.Ecommerce.tests.ErrorValidationTest">
-        <test-method is-config="true" signature="startApplication()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T16:29:04 IST" name="startApplication" finished-at="2024-09-27T16:29:16 IST" duration-ms="12057" status="PASS">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T17:54:19 IST" name="startApplication" finished-at="2024-09-27T17:54:24 IST" duration-ms="5153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method signature="loginErrorValidation()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T16:29:16 IST" name="loginErrorValidation" finished-at="2024-09-27T16:29:17 IST" duration-ms="1302" status="PASS">
+        <test-method signature="loginErrorValidation()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T17:54:24 IST" name="loginErrorValidation" finished-at="2024-09-27T17:54:30 IST" duration-ms="5447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginErrorValidation -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T16:29:17 IST" name="closeDriver" finished-at="2024-09-27T16:29:18 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T17:54:30 IST" name="closeDriver" finished-at="2024-09-27T17:54:30 IST" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="startApplication()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T16:29:18 IST" name="startApplication" finished-at="2024-09-27T16:29:32 IST" duration-ms="14496" status="PASS">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T17:54:30 IST" name="startApplication" finished-at="2024-09-27T17:54:35 IST" duration-ms="4441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method signature="productErrorValidation()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T16:29:32 IST" name="productErrorValidation" finished-at="2024-09-27T16:29:49 IST" duration-ms="16405" status="PASS">
+        <test-method signature="productErrorValidation()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T17:54:35 IST" name="productErrorValidation" finished-at="2024-09-27T17:54:54 IST" duration-ms="19680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productErrorValidation -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T16:29:49 IST" name="closeDriver" finished-at="2024-09-27T16:29:49 IST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyEcommerce.Ecommerce.tests.ErrorValidationTest@5bf0d49]" started-at="2024-09-27T17:54:54 IST" name="closeDriver" finished-at="2024-09-27T17:54:55 IST" duration-ms="938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- MyEcommerce.Ecommerce.tests.ErrorValidationTest -->
     </test> <!-- ErrorValidationTest -->
-    <test started-at="2024-09-27T16:29:04 IST" name="SubmitCartTest" finished-at="2024-09-27T16:30:00 IST" duration-ms="56332">
+    <test started-at="2024-09-27T17:54:19 IST" name="SubmitCartTest" finished-at="2024-09-27T17:55:10 IST" duration-ms="51373">
       <class name="MyEcommerce.Ecommerce.tests.EcommSubmitTest">
-        <test-method is-config="true" signature="startApplication()[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T16:29:04 IST" name="startApplication" finished-at="2024-09-27T16:29:10 IST" duration-ms="5191" status="PASS">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T17:54:20 IST" name="startApplication" finished-at="2024-09-27T17:54:26 IST" duration-ms="6917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method signature="ecommSubmit(java.util.HashMap)[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T16:29:10 IST" name="ecommSubmit" data-provider="getData" finished-at="2024-09-27T16:29:13 IST" duration-ms="3812" status="FAIL">
+        <test-method signature="ecommSubmit(java.util.HashMap)[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T17:54:26 IST" name="ecommSubmit" data-provider="getData" finished-at="2024-09-27T17:54:48 IST" duration-ms="21479" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,77 +50,18 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button _ngcontent-tfg-c34="" class="btn w-10 rounded" style="float: right;">...</button> is not clickable at point (1347, 443). Other element would receive the click: <div _ngcontent-tfg-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=129.0.6668.70)
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0978e4f25fa463313761c878ad98e234, clickElement {id=f.C6CF96AF667D09E1AF4774CF9981BE88.d.C78C0850CFA6916B9553B4C7DEF076BD.e.80}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59619}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59619/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on windows (0978e4f25fa463313761c878ad98e234)] -> css selector: .card-body]] -> css selector: button:last-of-type]
-Session ID: 0978e4f25fa463313761c878ad98e234]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-tfg-c34="" class="btn w-10 rounded" style="float: right;">...</button> is not clickable at point (1347, 443). Other element would receive the click: <div _ngcontent-tfg-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=129.0.6668.70)
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0978e4f25fa463313761c878ad98e234, clickElement {id=f.C6CF96AF667D09E1AF4774CF9981BE88.d.C78C0850CFA6916B9553B4C7DEF076BD.e.80}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59619}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59619/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on windows (0978e4f25fa463313761c878ad98e234)] -> css selector: .card-body]] -> css selector: button:last-of-type]
-Session ID: 0978e4f25fa463313761c878ad98e234
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at MyEcommerce.Ecommerce.pageobjects.ProductCataloguePage.matchProductandAddToCart(ProductCataloguePage.java:47)
-at MyEcommerce.Ecommerce.tests.EcommSubmitTest.ecommSubmit(EcommSubmitTest.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ecommSubmit -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T16:29:13 IST" name="closeDriver" finished-at="2024-09-27T16:29:14 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T17:54:48 IST" name="closeDriver" finished-at="2024-09-27T17:54:49 IST" duration-ms="856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="startApplication()[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T16:29:14 IST" name="startApplication" finished-at="2024-09-27T16:29:16 IST" duration-ms="2501" status="PASS">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T17:54:49 IST" name="startApplication" finished-at="2024-09-27T17:54:52 IST" duration-ms="3453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method signature="ecommSubmit(java.util.HashMap)[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T16:29:16 IST" name="ecommSubmit" data-provider="getData" finished-at="2024-09-27T16:30:00 IST" duration-ms="44148" status="FAIL">
+        <test-method signature="ecommSubmit(java.util.HashMap)[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T17:54:52 IST" name="ecommSubmit" data-provider="getData" finished-at="2024-09-27T17:55:10 IST" duration-ms="17517" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,44 +69,10 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at MyEcommerce.Ecommerce.tests.EcommSubmitTest.ecommSubmit(EcommSubmitTest.java:41)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ecommSubmit -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T16:30:00 IST" name="closeDriver" finished-at="2024-09-27T16:30:00 IST" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyEcommerce.Ecommerce.tests.EcommSubmitTest@7e07db1f]" started-at="2024-09-27T17:55:10 IST" name="closeDriver" finished-at="2024-09-27T17:55:10 IST" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

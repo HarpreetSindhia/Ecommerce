@@ -15,7 +15,7 @@ public class ErrorValidationTest extends BaseTest{
 
 	
 
-	@Test(groups= {"Error Handling"})
+	@Test(groups= {"Error Handling"},retryAnalyzer=Retry.class)
 	public void loginErrorValidation() {
 		
 		
@@ -32,7 +32,7 @@ public class ErrorValidationTest extends BaseTest{
 	String country ="Australia";
 	
 
-	@Test(retryAnalyzer = Retry.class)
+	@Test
 	public void productErrorValidation() {
 		
 		
