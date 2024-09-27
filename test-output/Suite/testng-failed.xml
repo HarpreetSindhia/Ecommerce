@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="MyEcommerce.Ecommerce.testcomponents.Listeners"/>
-  </listeners>
-  <test thread-count="5" parallel="tests" name="SubmitCartTest(failed)">
+  <test thread-count="5" parallel="tests" name="ErrorValidationTest(failed)">
+    <groups>
+      <run>
+        <include name="Error Handling"/>
+      </run>
+    </groups>
     <classes>
-      <class name="MyEcommerce.Ecommerce.tests.EcommSubmitTest">
+      <class name="MyEcommerce.Ecommerce.tests.ErrorValidationTest">
         <methods>
-          <include name="ecommSubmit" invocation-numbers="1"/>
-          <include name="closeDriver"/>
+          <include name="loginErrorValidation"/>
           <include name="startApplication"/>
         </methods>
-      </class> <!-- MyEcommerce.Ecommerce.tests.EcommSubmitTest -->
+      </class> <!-- MyEcommerce.Ecommerce.tests.ErrorValidationTest -->
     </classes>
-  </test> <!-- SubmitCartTest(failed) -->
+  </test> <!-- ErrorValidationTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

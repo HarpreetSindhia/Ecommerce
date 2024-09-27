@@ -46,7 +46,7 @@ public class AbstractComponents {
 
 	public void waitForTheElementToAppear(By findBy)
 	{
-		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(3));
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(4));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
 	}
 	
@@ -87,7 +87,7 @@ public class AbstractComponents {
 	
 	public void navigateHome()
 	{
-		homePage.click();
+		actions.moveToElement(homePage).click().build().perform();
 	}
 	
 }

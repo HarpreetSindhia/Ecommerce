@@ -38,6 +38,7 @@ public class OrdersPage extends AbstractComponents {
 	
 	public boolean matchOrdersListToActualList(List<String> targetProducts)
 	{
+		WaitForTheWebElementToAppear(orderedProducts);
 		for(String targetProduct : targetProducts)
 		{
 			Boolean matchFound = orderedProducts.stream().anyMatch(order -> order.getText().equalsIgnoreCase(targetProduct));
