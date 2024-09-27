@@ -109,11 +109,14 @@ public class BaseTest {
 		return landingPage;
 	}
 	
+	//After Method -> Scope is limited to class only and will run after every testcase in class.
+	
 	@AfterMethod(alwaysRun=false)
 	public void closeDriver()
 	{
 		driver.quit();
 	}
 	
+	//Now, driver . quit method used to close every associated window.
 	
 }
