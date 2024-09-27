@@ -31,10 +31,10 @@ public class ProductCataloguePage extends AbstractComponents {
 	@FindBy(css=".card-body")
 	List<WebElement> products;
 	
-	@FindBy(css=".ng-tns-c4-10")
+	@FindBy(id="toast-container")
 	WebElement toastMessage;
 	
-	@FindBy(css="ng-tns-c31-0")
+	@FindBy(css=".ng-trigger-fadeIn")
 	WebElement spinner;
 
 	public CheckoutPage matchProductandAddToCart(List<String> targetProducts)
