@@ -5,7 +5,7 @@
     <classes>
       <class name="MyEcommerce.Ecommerce.tests.EcommSubmitTest">
         <methods>
-          <include name="ecommSubmit" invocation-numbers="1"/>
+          <include name="ecommSubmit" invocation-numbers="0 1"/>
           <include name="closeDriver"/>
           <include name="startApplication"/>
         </methods>

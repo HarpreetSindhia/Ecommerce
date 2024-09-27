@@ -25,18 +25,22 @@ public class ProductCataloguePage extends AbstractComponents {
 	//WebElement toastMessage = driver.findElement(By.cssSelector(".ng-trigger-flyInOut"));
 
 	//WebElement spinner = driver.findElement(By.cssSelector(".ng-trigger-fadeIn"));
+	
+
 
 	@FindBy(css=".card-body")
 	List<WebElement> products;
 	
-	@FindBy(css="div[class*='flyInOut']")
+	@FindBy(css=".ng-tns-c4-10")
 	WebElement toastMessage;
 	
-	@FindBy(css="div[class*='fadeIn']")
+	@FindBy(css="ng-tns-c31-0")
 	WebElement spinner;
 
 	public CheckoutPage matchProductandAddToCart(List<String> targetProducts)
 	{
+		WaitForTheWebElementToAppear(products);
+		
 	for(String targetProduct:targetProducts)
 	{
 		WebElement product = products.stream()

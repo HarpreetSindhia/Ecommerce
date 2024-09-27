@@ -1,6 +1,7 @@
 package MyEcommerce.Ecommerce.abstractcomponents;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -36,6 +37,15 @@ public class AbstractComponents {
 	
 	//driver.findElement(By.cssSelector("button[routerlink='/dashboard/']")).click();
 	
+	public void WaitForTheWebElementToAppear(List<WebElement>findBy)
+	{
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(4));
+		wait.until(ExpectedConditions.visibilityOfAllElements(findBy));
+	}
+	
+	
+	
+
 	public void WaitForTheWebElementToAppear(WebElement findBy)
 	{
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(4));
