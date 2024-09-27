@@ -1,0 +1,7 @@
+MyEcommerce\Ecommerce\resources\ExtentReportNG.class
+MyEcommerce\Ecommerce\pageobjects\LandingPage.class
+MyEcommerce\Ecommerce\pageobjects\CheckoutPage.class
+MyEcommerce\Ecommerce\pageobjects\ProductCataloguePage.class
+MyEcommerce\Ecommerce\pageobjects\ConfirmationPage.class
+MyEcommerce\Ecommerce\pageobjects\OrdersPage.class
+MyEcommerce\Ecommerce\abstractcomponents\AbstractComponents.class

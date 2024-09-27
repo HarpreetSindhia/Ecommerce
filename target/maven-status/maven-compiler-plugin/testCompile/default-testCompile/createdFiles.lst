@@ -1,0 +1,7 @@
+MyEcommerce\Ecommerce\testcomponents\BaseTest.class
+MyEcommerce\Ecommerce\testcomponents\Retry.class
+MyEcommerce\Ecommerce\tests\ErrorValidationTest.class
+MyEcommerce\Ecommerce\tests\EcommSubmitTest.class
+MyEcommerce\Ecommerce\tests\EcommStandAloneTest.class
+MyEcommerce\Ecommerce\testcomponents\BaseTest$1.class
+MyEcommerce\Ecommerce\testcomponents\Listeners.class
