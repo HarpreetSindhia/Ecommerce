@@ -29,10 +29,10 @@ public class ProductCataloguePage extends AbstractComponents {
 	@FindBy(css=".card-body")
 	List<WebElement> products;
 	
-	@FindBy(css=".ng-trigger-flyInOut")
+	@FindBy(css="div[class*='flyInOut']")
 	WebElement toastMessage;
 	
-	@FindBy(css=".ng-trigger-fadeIn")
+	@FindBy(css="div[class*='fadeIn']")
 	WebElement spinner;
 
 	public CheckoutPage matchProductandAddToCart(List<String> targetProducts)
