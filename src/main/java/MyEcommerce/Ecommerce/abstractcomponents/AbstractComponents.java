@@ -50,8 +50,6 @@ public class AbstractComponents {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
 	}
 	
-	
-	
 
 	public void WaitForTheWebElementToAppear(WebElement findBy)
 	{
